@@ -17,6 +17,13 @@ pnpm-debug.log*
 .env
 .env.production
 
+# SSH / private keys — nunca subir claves al repo
+*.pem
+*.key
+id_*
+exit
+exit.pub
+
 # macOS-specific files
 .DS_Store
 
